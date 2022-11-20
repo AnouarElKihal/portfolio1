@@ -1,0 +1,279 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #060a1f;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    justify-content: center;
+}
+  
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: rgb(182, 198, 211);
+    font-weight: bolder;
+    font-size: 18px;
+}
+  
+nav ul li a:hover {
+    color: crimson;
+}
+  
+nav ul li a:active {
+    opacity: 0.7;
+}
+  
+#homePage {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px; 
+}
+  
+#homePage h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#aboutPage {
+    height: 600px;
+}
+
+.title {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+}
+
+.title h1 {
+    margin-top: 100px;
+}
+
+.aboutSection {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#aboutImage {
+	  width: 400px;
+	  height: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+#aboutParagraph {
+    width: 600px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#aboutBtn {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: crimson;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#aboutBtn:hover {
+    opacity: 0.8;
+}
+
+#skillsPage {
+    height: 500px;
+}
+
+#skillsPage .title {
+    padding-top: 15px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+}
+
+#projectsPage .projects .title h1 {
+    padding-top: 70px;
+}
+
+#projectsPage .projects .title {
+    margin-bottom: 15px;
+}
+
+#projectsPage .projects {
+	  flex-direction: column;
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  padding: 100px 0;
+    height: 1200px;
+}
+
+#projectsPage .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#projectsPage .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+#projectsPage .project-info {
+	  padding: 30px;
+	  flex-basis: 50%;
+	  height: 100%;
+	  display: flex;
+	  align-items: flex-start;
+	  justify-content: center;
+	  flex-direction: column;
+	  background-image: linear-gradient(60deg, black, #485563 100%);
+	  color: aliceblue;
+    border: 3px solid rgb(160, 149, 149);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+#projectsPage .project-info h1 {
+    font-family: "Montserrat", sans-serif;
+	  font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#projectsPage .project-info p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+	  color: aliceblue;
+}
+
+#projectsLink {
+    text-decoration: none;
+}
+
+#projectsButton {
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 0;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: crimson;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#projectsButton:hover {
+    opacity: 0.8;
+}
+
+#projectsButton:active {
+    opacity: 0.4;
+}
+
+.projects .title h1 {
+    margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
+#contactsLink {
+    text-decoration: none;
+    color: black;
+}
+
+.gmail {
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    transition: all .3s ease-out;
+}
+
+.gmail:hover {
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
