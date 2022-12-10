@@ -80,8 +80,8 @@ nav ul li a:active {
 }
 
 #aboutImage {
-	  width: 400px;
-	  height: 300px;
+	width: 400px;
+	height: 300px;
     margin: 20px;
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
@@ -146,11 +146,11 @@ nav ul li a:active {
 }
 
 #projectsPage .projects {
-	  flex-direction: column;
-	  max-width: 1200px;
-	  margin: 0 auto;
-	  padding: 100px 0;
-    height: 1200px;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+    height: 1500px;
 }
 
 #projectsPage .all-projects {
@@ -172,15 +172,15 @@ nav ul li a:active {
 }
 
 #projectsPage .project-info {
-	  padding: 30px;
-	  flex-basis: 50%;
-	  height: 100%;
-	  display: flex;
-	  align-items: flex-start;
-	  justify-content: center;
-	  flex-direction: column;
-	  background-image: linear-gradient(60deg, black, #485563 100%);
-	  color: aliceblue;
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, black, #485563 100%);
+	color: aliceblue;
     border: 3px solid rgb(160, 149, 149);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
@@ -188,14 +188,14 @@ nav ul li a:active {
 
 #projectsPage .project-info h1 {
     font-family: "Montserrat", sans-serif;
-	  font-weight: bold;
+	font-weight: bold;
     padding-bottom: 5px;
 }
 
 #projectsPage .project-info p {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-	  color: aliceblue;
+	color: aliceblue;
 }
 
 #projectsLink {
